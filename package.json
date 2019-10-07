@@ -1,0 +1,27 @@
+{
+  "name": "apiopen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/tezh/openshifapiback.git"
+  },
+  "author": "JD Benitez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/tezh/openshifapiback/issues"
+  },
+  "homepage": "https://gitlab.com/tezh/openshifapiback#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.2"
+  }
+}
